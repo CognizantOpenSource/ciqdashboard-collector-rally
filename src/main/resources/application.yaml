@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: CIQDashboard-rally-collector
+  data:
+    mongodb:
+      uri:
+      collection:
+
+logging:
+  level:
+    com.cognizant.collector.rally.client.RallyClient:
+
+  pattern:
+    console:
+
+scheduler:
+  cron:
+  enable:
+
+rallyServer:
+  url:
+  username:
+  password:
+
+server:
+  port:
+
+jasypt:
+  encryptor:
+    password:
+    bean:
